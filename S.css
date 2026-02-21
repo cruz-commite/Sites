@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg, #111111, #6f6f6f);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza horizontalmente conteúdo normal */
+  animation: mudar 2s infinite;
+}
+
+h1 {
+  color: #708090;
+  background-color: #304050;
+}
+
+h3 {
+  color: #708090;
+  background-color: #304050;
+}
+
+p {
+  color: blue;
+}
+
+/* ESTILO DO LINK NA LATERAL ESQUERDA */
+a {
+  position: fixed; /* fixa na tela */
+  left: 0;         /* colado na lateral esquerda */
+  top: 700px;        /* centralizado vertical */
+  transform: translateY(-50%); /* centraliza certinho */
+
+font-size: 20px;
+}
+
+p {
+  position: fixed; /* fixa na tela */
+  left: 0;         /* colado na lateral esquerda */
+  top: 720px;        /* centralizado vertical */
+  transform: translateY(-50%); /* centraliza certinho */
+
+font-size: 20px;
+background-color: #262626;
+}
+
+button {
+  height: 200px;
+  width: 200px;
+    position: fixed; /* fixa na tela */
+  left: 100px;         /* colado na lateral esquerda */
+  top: 300px;   
+  border-radius: 20%;
+  border: 5px solid blue;
+  background-color: #383454;
+  font-size: 50px;
+  font-family: Arial;
+  color: cyan;
+}
